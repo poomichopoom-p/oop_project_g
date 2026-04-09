@@ -1,17 +1,17 @@
 const StandingTicket = require("./StandingTicket");
 
 
-class StadiumG (name) {
-    constructor(name){
+class StadiumG {
+    constructor(name,ticket) {
         this.name = name;
         this.ticket = [];
     }
+    
+    addTicket(ticket) {
+        this.ticket.push(ticket);
+        console.log(`Added ${ticket.name} to the ${this.StadiumGName}`);
+    }
 }
-
-addTicket(Ticket) {
-    this.ticket.push(ticket);
-    console.log(`Added ${ticket.name} to the ${this.StadiumGName}`);
-  }
 
 module.exports = StadiumG;
 

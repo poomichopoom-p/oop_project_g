@@ -24,8 +24,8 @@ class VipTicket extends ConcertTicket {
 
 Module.exports = VipTicket;
 
-// const 68 = new68(Vip,120000,kiss)
+// const seat = new68(Vip,120000,kiss)
 
-// class StadiumG(StadiumGName){
-//     this.StadiumGName=StadiumGName
+// class StadiumG (StadiumGname){
+//     this.StadiumGname = StadiumGname
 // }
